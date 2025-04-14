@@ -1,6 +1,6 @@
 import React from "react";
 import { FaUser, FaCog, FaBell } from "react-icons/fa";
-import "./topbar.css";
+import "./Topbar.css";
 
 const Topbar = () => {
   return (
