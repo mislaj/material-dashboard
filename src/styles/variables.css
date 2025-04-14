@@ -1,0 +1,8 @@
+:root {
+    --primary-color: #3b82f6;
+    --bg-color:#f2f5fa;
+    --card-bg: #ffffff;
+    --text-color: #1f2937;
+    --border-radius: 12px;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }

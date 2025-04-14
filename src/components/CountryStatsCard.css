@@ -1,0 +1,8 @@
+.country-card {
+  width: 30%;
+}
+@media screen and (max-width: 1024px) {
+  .country-card {
+    width: unset;
+  }
+}

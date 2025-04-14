@@ -1,0 +1,35 @@
+.dashboard-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .kpi-row {
+    display: flex;
+    gap: 1rem;
+    /* flex-wrap: wrap; */
+  }
+  .dashboard-grid {
+    display: flex;
+    width: 100%;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  /*Responsive styles*/
+
+  @media screen and (max-width: 1024px) {
+    .dashboard-grid {
+        flex-direction: column;
+      }
+      .kpi-row{
+        flex-direction: column;
+        width: 100%;
+      }
+  }

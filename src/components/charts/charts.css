@@ -1,0 +1,67 @@
+.chart-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  /* max-width: 30%; */
+}
+
+.chart-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 3px;
+}
+
+.chart-desc {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+.legend-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 1rem;
+}
+.legend-item {
+  color: #374151;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}
+.facebook-indicator {
+  background-color: #3b82f6;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  margin-right: 3px;
+}
+.google-indicator {
+  background-color: #111827;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  margin-right: 3px;
+}
+.pie-chart {
+  max-width: 30%;
+}
+.line-chart {
+  width: 70%;
+}
+.sales-chart {
+  width: 70%;
+}
+@media screen and (max-width: 1024px) {
+  .pie-chart {
+    max-width: unset;
+  }
+  .line-chart {
+    width: unset;
+  }
+  .sales-chart {
+    width: unset;
+  }
+}

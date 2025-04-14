@@ -1,0 +1,53 @@
+.kpi-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  color: #2f2f2f;
+  width: 100%;
+  /* max-width: 300px; */
+  font-family: "Segoe UI", sans-serif;
+}
+
+.kpi-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #888ea8;
+  margin-bottom: 0.8rem;
+}
+
+.kpi-title {
+  font-size: 0.9rem;
+  color: #707a90;
+}
+
+.kpi-date {
+  font-size: 0.8rem;
+  color: #a0a4b8;
+}
+
+.kpi-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2e3650;
+  margin-bottom: 0.5rem;
+}
+
+.kpi-change {
+  font-size: 0.85rem;
+  color: #a0a4b8;
+}
+
+.change-positive {
+  color: #4caf50;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+  .kpi-card {
+    width: unset;
+  }
+}
